@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="responsividade.css">
+    <link rel="stylesheet" href="lightbox2/dist/css/lightbox.min.css" />
+    <title>Prova P2</title>
+</head>
+<body>
+  <header>
+    <div class="logo"><img src="imagens/logo.png" alt=""></div>
+    
+<div class="w3-sidebar"  id="mySidebar">
+  <button onclick="w3_close()" class="w3-bar-item">&#9776; MENU</button>
+  <a href="#galeria" class="w3-item ">Galeria de Imagens Lightbox</a>
+  <a href="#sub-link" class="w3-item ">Modelo de Giro</a>
+  <a href="#acordeon-link" class="w3-item ">Tipos de Vidros</a>
+  <a href="#fim-link" class="w3-item ">Contato</a>
+</div>
+<div class="w3-teal">
+  <button class="w3-button" onclick="w3_open()">☰ MENU</button>
+  <div class="w3-container"><h1>Prova P2 </h1></div>
+</div>
+  </header>
+
+  <main>
+    <section>
+      <h1 class="titulo-galeria" id="galeria">Galeria de Imagens Lightbox</h1>
+
+      <div class="grid-gallery">
+        <div class="grid-item">
+          <a href="imagens/img-1.jpg" data-lightbox="gridImage">
+            <img src="imagens/img-1.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="imagens/img-2.jpg" data-lightbox="gridImage">
+            <img src="imagens/img-2.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="imagens/img-3.jpg" data-lightbox="gridImage">
+            <img src="imagens/img-3.jpg" />
+          </a>
+        </div>
+        <div class="grid-item">
+          <a href="imagens/img-4.jpg" data-lightbox="gridImage">
+            <img src="imagens/img-4.jpg" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section >
+      <div class="sub" id="sub-link">
+        <ul class="sub-li">
+          <h1>Modelo de Giro</h1>
+          <br>
+          <p>Os sistemas de abrir para portas e janelas possuem um design contemporâneo e atraente, oferecem uma solução técnica adequada para todos os estilos de construção. Disponibilizamos de perfis que atingem desde pequenas a grandes dimensões. Trata-se de sistemas de abrir com espaços para vidros de várias espessuras, reforçados internamente com alma de aço galvanizado que confere a estabilidade da estrutura principal e garante extrema rigidez. A empresa utiliza na fabricação destes sistemas, ferragens alemãs com fechamento multiponto, borrachas especiais para vedação e acessórios de altíssimo padrão. Com perfis multicâmera, o sistema fornece um excelente desempenho térmico e acústico.
+          </p>
+        </ul>
+        <ul class="sub-li">
+          <h1>Modelo Maxim ar</h1>
+          <br>
+          <p>As janelas conhecidas como basculantes e tecnicamente chamada de janela máxim ar, leva seu nome devido ao máximo de ventilação em menor tempo. As janelas máxim ar, ao contrário do que muitos dizem, não somente são utilizadas em áreas úmidas, como banheiros e áreas de serviços, atualmente muitas residências utilizam este modelo de esquadria em dormitórios e muitos hotéis também já utilizam este modelo.
+          </p>
+        </ul>
+        <ul class="sub-li">
+          <h1>Oscilo-batente</h1>
+          <br>
+          <p>O sistema oscilo-batente produzido pelo Grupo ambientar é ideal para ser utilizado em regiões com grandes variações climáticas, além de ser um dos sistemas com maior atenuação sonora. O sistema possui ferragens de funcionamento especial que contorna todo o perímetro da folha, possibilitando uma dupla abertura (abrir ou tombar), o que permite uma ventilação total, se o sistema estiver na opção abrir ou limitada se estiver na opção tombar. Trata-se de um sistema com espaços para vidros e reforçados internamente com alma de aço galvanizado que confere a estabilidade da estrutura principal e garante extrema rigidez. A empresa utiliza na produção destes sistemas, ferragens alemãs com fechamento multiponto, borrachas especiais para vedação e acessórios de altíssimo padrão, o que proporciona conforto, estanqueidade, isolamento termo acústico e segurança.
+          </p>
+        </ul>
+      </div>
+    </section>
+
+
+    <section>
+      <h2 class="titulo-acordeon" id="acordeon-link">Tipos de Vidros</h2>
+
+<button class="accordion">Vidro Duplo</button>
+<div class="panel">
+  <p>Principais Benefícios: O vidro duplo oferece privacidade, aproveitamento máximo da luz natural e controle da luminosidade (entrada de luz e calor); Isolamento térmico e acústico (atenua as ondas sonoras em níveis superiores ao do vidro comum com melhor resultado pela utilização de gases especiais); Grande durabilidade.</p>
+</div>
+
+<button class="accordion">Vidro laminado</button>
+<div class="panel">
+  <p>Principais Benefícios: Segurança para bens patrimoniais e para pessoas, reduzindo o risco de ferimento; Ao quebrar, não necessita substituição imediata do vidro; Controle acústico, atenuando a entrada de ruídos externos; Melhor proteção contra desbotamento e envelhecimento de móveis e objetos, provocados pelo sol; Diversidade de cores.</p>
+</div>
+
+<button class="accordion">Vidro Refletivo</button>
+<div class="panel">
+  <p>Principais Benefícios: Performances diferenciadas para controle solar em relação à transmissão e à reflexão de luz e calor, além de baixos coeficientes de sombreamento; Redução em até 80% da passagem de calor por radiação solar para o interior do ambiente, garantindo, assim, excelente isolamento térmico; Barreira contra os raios ultravioleta (UV), quando laminado; Economia de consumo de energia elétrica pela diminuição do uso do ar-condicionado, consequência do controle térmico que o vidro proporciona; Controle da luminosidade incidente no vidro: sensação de conforto ao usuário e racionalização no uso da luz elétrica.</p>
+</div>
+    </section>
+
+
+  </main>
+
+<footer id="fim-link">
+  <section class="contato" >
+    <div class="item-contato">
+      <h1 class="info-contato">INFORMAÇÕES PARA CONTATOS</h1>
+      <p>ENDERÇO: Av. Governador Roberto Silveira, nº 437, Flamengo - Maricá/RJ</p>
+    <P>TELEFONE: (21)999999999</P>
+    <P>EMAIL: laboratoriodeprogramacaoweb@gmail.com</P>
+    </div>
+    
+
+    <div class="icones-footer">
+        <ul><a href="https://www.facebook.com/?locale=pt_BR"><img src="icones/facebook.png" height="14px" alt="pagina do facebook"></a>: Facebook</ul>
+        <ul>
+            <a href="https://x.com/?logout=1719334190178"><img src="icones/icone-twitter.png" alt="pagina do twitter"></a>: Twitter
+        </ul>
+        <ul>
+            <a href="https://www.instagram.com/"><img src="icones/instagram.png" alt="pagina do instagram"></a>: Instagram
+        </ul>
+        <ul>
+          <a href="https://br.linkedin.com/"><img src="icones/icone-linkedin.png" alt="icone do LinkedIn."></a>: Linkedin
+      </ul>
+
+    </div>
+</section>
+  <p class="fim">&copy; 2024 Laboratório de Programação de Web Sites.</p>
+</footer>
+
+</body>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script src="lightbox2/dist/js/lightbox.min.js"></script>
+<script src="script.js"></script>
+
+</html>
